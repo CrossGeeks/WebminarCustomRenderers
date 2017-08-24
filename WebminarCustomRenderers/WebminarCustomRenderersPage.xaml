@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WebminarCustomRenderers" x:Class="WebminarCustomRenderers.WebminarCustomRenderersPage">
+	<StackLayout VerticalOptions="CenterAndExpand">
+        <local:MyEntry x:Name="myEntry" Text="Texto"/>
+        <Switch Toggled="Handle_Toggled"/>
+    </StackLayout>
+</ContentPage>
